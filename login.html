@@ -1,0 +1,24 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body class="text-center">
+    <form class="form-signin">
+        <img class="mb-4" src="img/logo.png">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <div class="campos">
+            <input type="text" id="usuario" class="input form-control" placeholder="Usuário" required autofocus>
+            <input type="password" id="senha" class="input form-control" placeholder="Senha" required>
+            <br>
+            <button class="input btn btn-lg btn-primary btn-block" type="button" onclick="voltar()">Voltar</button>
+            <button class="input btn btn-lg btn-primary btn-block" type="submit" onclick="login()">Entrar</button>
+        </div>
+    </form>
+    
+    <script src="script/script.js"></script>
+  </body>
+</html>
